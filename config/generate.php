@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['prompt'])) {
     }
 
 
-    $apiKey = 'openaikeyhere';
+    $apiKey = 'OPENAI_API_KEY';
 
 
     $ch = curl_init();
